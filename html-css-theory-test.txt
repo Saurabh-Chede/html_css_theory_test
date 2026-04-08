@@ -1,0 +1,159 @@
+question1.
+answer: the purpose of doctype in html is to specify the browser the this is html file document.
+
+question2.
+answer: block level element is start with new line , and its take the complete space of the line .
+        inline element : inline elemnts only take the necessary space on the line 
+
+        examples - block level element - <p> , <div>
+                 - inline element - <span>
+
+question3 : 
+answer : semantic html elemnts are those which have decription or naming like what they mean 
+        - example <header> - heading purpose
+                  <footer> - for footer purpose
+                  <nav> - navbar 
+                  <article >
+                  <section>
+
+question4 :
+answer : div is block level element its takes complete space on the line
+        span tag is inline element and its takes only necessary space or required space of the line.
+
+
+question5:
+answer: meta tags are for the seo purpose and for improving seo index of the website 
+        its includes the description of the site or app for improve seo in google serach
+        
+        example - 
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Document</title>
+
+question6 : 
+answer : strong - for medium bold 
+         i - its for italic 
+         b - for bold font or text type
+         em - for italic type or similar type
+
+
+question7:
+answer : alt attriute in the image is for alternate text or we can say if image is not availale or not loading then alt shows its text or name .
+
+question8: 
+answer : id : its unique it cant be repated - #id
+         .class - it is resuable and write like - .class
+
+question9 : write html form
+
+ <form >
+        <label for="name">
+            name:
+        </label>
+        <input type="text">
+        <label for="email">
+            email :
+        </label>
+        <input type="email">
+        <button type="submit">
+             click to submit
+        </button>
+    </form>
+
+
+question10: article vs section
+
+section - tag is used for define section or diifrent parts of html page , its sematic tag
+article - its name directly suggest its for writing paragaph or article. long form
+
+
+
+question11: label tag use.
+answer : label tag is for labelling element in form , its semantic tag its descre what tag name is .
+
+question:12
+answer : void elemets are those dont need closing tags they are self closing example = img, br 
+
+question13: types of css 
+answer : 1. inline, 
+         2. external,
+         3. internal, with style tag
+
+         specificity - inline css has top pririty in conflicts and as asusual 
+
+question14: margin vs padding
+answer : margin is most outside property in box model  - its added after border
+    padding is apply space on content 
+    box model - content - padding - border - margin
+
+question15: box-sizing
+answer:  border-box : it includes padding in width,
+         content-box : it not includes in padding in define width of element
+
+
+question16:
+answer : flexbox is the display type property and its 1 dimensional eithe horizontaly or vertically 
+         .body{
+            display:flex;
+         }
+         justify-content - is flex property for aligning itmes horizontally , examples - center, end, base
+         align-itmes - is flex property for aligning itmes vertically 
+
+question17:
+answer : display:none is apply then html element is remove from document,
+        if visility : hidden is apply then element is present just its hidden 
+
+question18 : - position property 
+             its used for element positioning by default is position is static,
+             options - static , relative, asolute.
+             static - 
+             relative - its position is relative to the its nearest parent container
+             absolute - we can move element from its nearest parent and its now directly accesible top element
+
+question19 - z index
+            its css property for stacking element on each other , highest index means its will be on top of stacking
+
+question20: inline vs block vs inline-block
+           inline takes only required space
+           block takes complete space on line,
+           inline black , inline element acts as block.
+
+question21: media querry;
+           ist used for adding respinveness in wesite or page
+           there are 3 brakpoinst
+           mobile - @media(max-width:768px){
+               body{
+                display : flex
+                flex-direction : column
+               }
+
+           }
+
+           tablet -  @media(max-width:968px){
+
+             body{
+                display : flex
+                flex-direction : column
+               }
+
+           }
+
+           dessktop - @media(max-width:1024px){
+             body{
+                display : flex
+                flex-direction : row
+               }
+
+           }
+
+question22: clss vs id selector
+
+          class - slector is we can select multiple elemnts with class 
+          id - its unique and we can only use for unique single selction.
+
+
+
+
+
+
+
